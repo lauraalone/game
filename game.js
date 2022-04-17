@@ -16,11 +16,11 @@ function generateComputerChoice () {
     if (randomNumber === 1) {
         computerChoice = 'rock'
     }
-    if (randomNumber === 2) {
+    else if (randomNumber === 2) {
         computerChoice = 'scissors'
     }
-    if (randomNumber === 3) {
-        computerChoice = 'papper'
+    else if (randomNumber === 3) {
+        computerChoice = 'paper'
     }
     computerChoiceDisplay.innerHTML = computerChoice
 }
